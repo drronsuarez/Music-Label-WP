@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.artistcontainer {
+	width: 100%;
+	display: block;
+	color:#ffffff;
+}
+
+.halfLeft {
+
+float: left;
+margin:5px;
+padding:5px;
+width: 45%;
+}
+
+.halfRight
+{
+	float: right;
+	width: 45%;
+	padding-top: 40px;
+}
+
+.box {
+	margin:5px 0;
+	padding:10px;
+	border:1px solid gray;
+	background:#F4F5F7;
+	margin-bottom:10px;
+}
+
+.bio {
+	width: 95%;
+	color: #333;
+}
+.box ul{
+list-style: none;
+color: #333;
+}	
+
+.box ul li a {
+cursor: pointer;
+text-decoration: none;
+color: gray;
+}
+
+
+.box ul li a:hover, a:active {
+color: red;
+
+}
+
+.full {
+width: 95%;
+height: 40%;
+margin:5px;
+padding:5px;
+background-image:url('http://essenceofape.prevuz.com/wp-content/plugins/loudfeed/images/artist_grade_r.png');
+background-repeat:repeat-x;
+background-color:#000000;
+}
+
+.clear {clear: both;}
+
+.artistcontainer a img {border: none;}
+
+.artistcontainer p {
+padding:10px;
+font-size: 16px;
+}
+.artistcontainer h2 { margin: 10px 4x; font-size: 20px; text-align: left; color:#4d85cb; margin-bottom:15px; margin-top:0; border-bottom:1px solid #CCCCCC}
+.artistcontainer h3 { margin: 10px 4px; font-size: 16px; text-align: left; color:#333;}
+
+
+.artistcontainer h3 a {
+cursor: pointer;
+text-decoration: none;
+color: #4d85cb;
+}
+.artistcontainer h3 a:hover, #artistcontainer h3 a:active {
+color: red;
+}
+
+#albumscontainer {
+	width: inherit;
+}
+
+.inner {
+display: block;
+margin:auto;
+width:100%;
+padding:5px;
+}
+
+.album {
+color:#333;
+width: 95%;
+height: 200px;
+float: left;
+margin: 5px;
+padding:0 8px;
+border:1px solid gray;
+}
+.album img {
+padding:6px;
+margin:0 auto;
+width: 100px;
+float: left;
+}
+
+#p_hack p
+{
+	padding-left:6px;
+	margin:0;
+	float:left;
+	width:66%;
+}
+/*hack to override wp class*/
+
+.album a img {border: none;}
+
+.album p {
+text-align:left;
+font-size: 12px;
+margin:0;
+/*padding:4px; -- inline style because of inheritance problem with wp classes*/
+}
+.album h2 { margin: 4px; font-size: 16px;}
+
+.album h2 a:link, .album h2 a:visited {
+color:#4d85cb;
+}
+.album h2 a:hover, .album h2 a:active {
+color: gray;
